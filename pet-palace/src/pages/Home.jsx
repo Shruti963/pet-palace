@@ -1,7 +1,7 @@
 // Home.jsx
 
 import PetCard from "../components/PetCard";
-import { pets } from "../services/petService";
+import { pets } from "../services/petsService";
 import "./Home.css";
 
 const Home = () => {
