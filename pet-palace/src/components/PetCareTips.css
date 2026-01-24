@@ -1,0 +1,49 @@
+/* PetCareTips.css */
+
+.petcare-section {
+  padding: 50px 20px;
+background-color: wheat;}
+
+.petcare-heading {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.petcare-cards-wrapper {
+  display: flex;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.petcare-card-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.petcare-card-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--primary);
+}
+
+.petcare-card-text {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.petcare-card-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ background-color: #d8d6d6;
+}

@@ -1,0 +1,74 @@
+/* AccessoryCard.css */
+
+.accessory-card {
+  /* border: 2px solid #e5e7eb; */
+  border-radius: 10px;
+  padding: 16px;
+  background: var(--card-bg, #fff);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.accessory-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Image */
+.accessory-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Content */
+.accessory-content {
+  margin-top: 14px;
+}
+
+/* Title */
+.accessory-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #08349a;
+  margin-bottom: 6px;
+}
+
+/* Description */
+.accessory-desc {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+/* Rating */
+.accessory-rating {
+  color: #f59e0b;
+  padding: 6px;
+}
+
+/* Price */
+.accessory-price {
+  font-weight: bold;
+  color: #16a34a;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.accessory-btn {
+  width: 100%;
+  padding: 10px;
+  /* background-color: #4f46e5; */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.accessory-btn:hover {
+  background-color: #a9a2f1;
+}
+

@@ -1,0 +1,40 @@
+/* PetCard.css */
+
+.pet-card {
+  width: 260px;
+  border-radius: 10px;
+  overflow: hidden;
+box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  padding-bottom: 16px;
+  text-align: center;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.pet-card h3 {
+  margin: 12px 0 6px;
+}
+
+.pet-card p {
+  margin: 4px 0;
+  color: var(--text-color);
+}
+
+.pet-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color:var(--primary);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pet-card button:hover {
+  opacity: 0.9;}
