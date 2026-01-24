@@ -3,7 +3,7 @@
 import { useParams } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
-import { pets } from "../services/petService";
+import { pets } from "../services/petsService";
 
 const PetDetails = () => {
   const { id } = useParams();
