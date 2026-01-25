@@ -25,9 +25,8 @@ const PetDetails = () => {
       <p>Type: {pet.type}</p>
       <p>Age: {pet.age} years</p>
 
-      {/* ✅ Add to Cart from details page */}
       <button
-        style={{ marginTop: "20px" }}
+        style={{ marginTop: "20px", padding: "8px 20px", fontSize: "14px", backgroundColor: "var(--primary)" ,border:"none" }}
         onClick={() => addToCart(pet)}
       >
         Add to Cart

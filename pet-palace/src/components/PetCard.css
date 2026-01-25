@@ -26,6 +26,12 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   color: var(--text-color);
 }
 
+.pet-card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
 .pet-card button {
   margin-top: 10px;
   padding: 8px 16px;
