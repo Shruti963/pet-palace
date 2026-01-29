@@ -12,7 +12,7 @@ import PetDetails from "./pages/PetDetails";
 import PetCareTips from "./components/PetCareTips";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
-
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
         <Route path="/accessories" element={<Accessories />} />
         <Route path="/pet/:id" element={<PetDetails />} />
         <Route path="/login" element={<Login />} />
+        <Route path="register" element={<Register />} />
         <Route path="/cart" element={<Cart />} />
 
       </Routes>

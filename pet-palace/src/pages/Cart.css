@@ -39,6 +39,14 @@
   margin-right: 15px;
 }
 
+.cart-info {
+  flex: 1;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .cart-info h3 {
   margin: 0 0 10px 0;
 }

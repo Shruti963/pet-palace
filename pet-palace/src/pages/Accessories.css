@@ -57,26 +57,3 @@
 }
 
 
-
-
-/* 
-.accessories {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
-.accessories-title {
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 32px;
-  color: var(--text-color);
-}
-
-.accessories-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
-} */

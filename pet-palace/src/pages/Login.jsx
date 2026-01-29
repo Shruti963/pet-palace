@@ -1,12 +1,14 @@
 // Login.jsx
 
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./Login.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -28,28 +30,19 @@ const Login = () => {
         <h2 className="auth-title">Welcome Back 👋</h2>
         <p className="auth-subtitle">Login to continue</p>
 
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="auth-input"
-          required
-        />
+        <input type="email" placeholder="Email" value={email}
+          onChange={(e) => setEmail(e.target.value)} className="auth-input" required />
 
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          className="auth-input"
-          required
-        />
+        <input type="password" placeholder="Password" value={password}
+          onChange={(e) => setPassword(e.target.value)} className="auth-input" required />
 
-<button type="submit" className="auth-btn">Login</button>
+        <button type="submit" className="auth-btn">Login</button>
 
         <p className="auth-footer">
-          Don’t have an account? <span>Register</span>
+          Don’t have an account?{" "}
+          <span onClick={() => navigate("/register")} className="auth-link">
+            Register
+          </span>
         </p>
       </form>
     </div>
@@ -57,3 +50,4 @@ const Login = () => {
 };
 
 export default Login;
+

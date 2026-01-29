@@ -80,3 +80,14 @@
     font-size: 22px;
   }
 }
+
+
+.auth-link {
+  color: #ff6b6b;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
